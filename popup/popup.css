@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: HYWenHei;
+    src: url(genshin-impact.woff2) format("woff2"),
+      url(genshin-impact.woff) format("woff"),
+      url(genshin-impact.ttf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Genshin Impact";
+    src: url(genshin-impact.woff2) format("woff2"),
+      url(genshin-impact.woff) format("woff"),
+      url(genshin-impact.ttf) format("truetype");
+  }
+
+body {
+    font-family: HYWenHei, Arial, Helvetica, sans-serif;
+    background-color: #0E1617;
+    color: #eee;
+    width: 16rem;
+}
+
+.resin-header img {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.resin-header h3 {
+    line-height: 24px;
+}
+
+.timer-header {
+    color: #D3BC8E;
+    font-size: 1.1rem;
+}
+
+.meme-text {
+    font-size: 0.6rem;
+    text-decoration: line-through;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button {
+    background-color: #49546A;
+    color: #FFF;
+    font-family: HYWenHei, Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
