@@ -6,7 +6,6 @@
     "author": "nate.shoffner@gmail.com",
     "description": "Novelty extension that displays your current Twitter rate-limit in a gacha style.",
     "permissions": [
-        "tabs",
         "storage",
         "webRequest"
     ],
